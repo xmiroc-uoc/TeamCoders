@@ -1,4 +1,3 @@
-// ArticuloNoEncontradoException.java (opcional)
 package grupofp.controlador;
 
 public class ArticuloNoEncontradoException extends Exception {

@@ -1,4 +1,3 @@
-// VistaConsola.java
 package grupofp.vista;
 
 import grupofp.controlador.ArticuloNoEncontradoException;
@@ -16,9 +15,6 @@ public class VistaConsola {
     this.sc = new Scanner(System.in);
   }
 
-  /**
-   * Muestra el menú principal y gestiona las opciones.
-   */
   public void iniciar() {
     int opcion;
     do {
@@ -135,7 +131,6 @@ public class VistaConsola {
     }
   }
 
-  // Métodos de lectura por consola:
   private String leerCadena(String mensaje) {
     System.out.print(mensaje);
     return sc.nextLine();
