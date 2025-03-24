@@ -1,12 +1,8 @@
-# Java compilados
-bin/
-*.class
+// compilar proyecto:
 
-# IDEs comunes
-.vscode/
-.idea/
-*.iml
+// cd TIENDAMVC
+// javac grupofp/modelo/*.java grupofp/controlador/*.java grupofp/vista/*.java
 
-# Archivos temporales de sistema
-**/.DS_Store
-Thumbs.db
+// ejecutar main class
+
+// java grupofp.vista.Main
